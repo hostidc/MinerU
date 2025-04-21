@@ -226,4 +226,4 @@ if __name__ == '__main__':
                         outputs=[md, md_text, output_file, pdf_show])
         clear_bu.add([file, md, pdf_show, md_text, output_file, is_ocr])
 
-    demo.launch(server_name='0.0.0.0')
+    demo.launch(server_name='0.0.0.0',share=True)
